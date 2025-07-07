@@ -15,7 +15,7 @@
     border-radius: 10px;
 }
 body{
-    background: url(/img/backgroud_index.jpg);
+    background: url(backgroud_index.jpg);
     background-size: cover;
 }
 .nav-bar a{
