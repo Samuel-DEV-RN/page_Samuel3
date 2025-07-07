@@ -17,7 +17,6 @@
 body{
     background: url(backgroud_index.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .nav-bar a{
     color: white;
@@ -37,7 +36,7 @@ h2{
 }
 #insert,p{
     left: auto;
-    width: 890px    ;
+    width: 890px;
     padding: 10px;
     padding-bottom: 1px;
     padding-left: 10px;
