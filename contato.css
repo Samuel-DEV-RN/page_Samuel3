@@ -35,7 +35,7 @@ a:hover{
 
 }
 body {
-    background: url(/img/backgroud_contato.jpg);
+    background: url(backgroud_contato.jpg);
     background-size: cover;
 }
 input{
