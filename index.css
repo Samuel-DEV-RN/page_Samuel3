@@ -17,6 +17,7 @@
 body{
     background: url(backgroud_index.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .nav-bar a{
     color: white;
