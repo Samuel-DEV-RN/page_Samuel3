@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="Ico_contate-me.ico">
+    <title>Contate-me</title>
+
+    <!-- AQUI TEMOS TODO O HEAD QUE APROVEITEI E DEIXEI UM ICO PARA CADA PAG-->
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="index.html">Sobre Mim</a>
+        <a href="Formação.html">Formação Acadêmica</a>
+        <a href="meus_portfolios.html">Meus portfólios</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <!-- AQUI FICA A PARTE DO FORMULÁRIO-->
+    <div class="formulario">
+        <form action="#" class="Form">
+            <div id="Titulo">
+            <h1>Contate-me</h1>
+            <br>
+            <br>
+            </div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu Primeiro Nome" alt="Primeiro Nome" autocomplete="off">
+            <br>
+            <label for="nome2">Sobrenome:</label>
+            <input type="text" name="nome2" placeholder="Digite seu Sobrenome" alt="Segundo Nome" autocomplete="off">
+            <br>
+            <label for="email">Digite Seu email:</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" alt='Digite seu Email' autocomplete="off">
+            <br>
+            <label for="telefone">Telefone(whatsapp)</label>
+            <input type="text" name="telefone" id="phone" placeholder="(DDD)xxxxx-xxxx" alt="Digite seu telefone para contato"autocomplete="off">
+            <br>
+            <label for="descrition">Descrição:</label>
+            <input type="text" name="descrition" id="descrition" placeholder="Faça aqui sua descrição." maxlength="1000" autocomplete="off">
+            <br>
+            <input type="submit" value="Enviar Formulário">
+        </form>
+        <script>
+            /*AQUI DEIXEI UM ALERTA EM JS PARA DIZER QUE A PAGINA ESTÁ APENAS VISUAL*/
+            alert("Esse formulário não envia para o Servidor.")
+        </script>
+    </div>
+    
+</body>
+</html>
